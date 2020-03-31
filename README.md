@@ -11,20 +11,27 @@ Note: Top left cell will always contain a 0
 
 ```
 Input : arr[][] = {{ 0, 0,  0, -1,  0 },
-                  { -1, 0,  0, -1, -1 },
+                  {  0, 0,  0, -1, -1 },
                   {  0, 0,  0, -1,  0 },
                   { -1, 0,  0,  0,  0 },
                   {  0, 0, -1,  0,  0 }}
 Output : Yes
 
 Input : arr[][] = {{ 0, 0,  0, -1,  0 },
-                  { -1, 0,  0, -1, -1 },
+                  {  0, 0,  0, -1, -1 },
                   {  0, 0,  0, -1,  0 },
                   { -1, 0, -1,  0,  0 },
                   {  0, 0, -1,  0,  0 }}
 Output : No
 ````
 
-## Submitting
+## Submission Criteria
 
-Please create a pull request with your solution to this repository
+You may choose to complete this task in any programming language, 
+
+- Fill in the missing code needed to solve for the path.
+- Please only choose one language.
+- Please create a pull request to this repository with the missing code block filled in.
+- Please create a markdown file with your name detailing the following:
+  - How your algorthim works [~5 line Paragraph]
+  - How to improve your algorthim (Big O notation)[~5 line Paragraph]
