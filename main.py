@@ -3,18 +3,10 @@ col = 5
 
 
 def isPath(arr):
-    path = False
-    paths = []
     for index, i in enumerate(arr):
-        if i[index] == 0:
-            path = True
-            paths.append(0)
-        else:
-            path = False
-    if paths != [0, 0, 0, 0, 0]:
-        return False
-    else:
-        return True
+        if i[index] != 0:
+            return False
+    return True
 
 # Test data
 arr = [[0, 0, 0, -1, 0],
